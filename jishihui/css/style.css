@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.margin {
+  width: 1190px; }
+
+a {
+  text-decoration: none; }
+
+header {
+  height: 110px; }
+  header .logo {
+    float: left;
+    margin: 20px; }
+  header .head-r {
+    float: right;
+    width: 600px;
+    margin: 20px; }
+    header .head-r a {
+      float: right;
+      font: 14px/20px "";
+      color: #000; }
+
+#main {
+  height: 580px;
+  background: url(../images/logo-bg.jpg) no-repeat #fe4c4c;
+  position: relative; }
+  #main form {
+    width: 360px;
+    height: 456px;
+    background: #ffeded;
+    position: absolute;
+    right: 40px;
+    top: 40px; }
+    #main form h3 {
+      height: 52px;
+      font: 300 24px/52px "";
+      padding: 0 30px; }
+    #main form .zhuce {
+      height: 22px;
+      padding: 0 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px; }
+      #main form .zhuce a {
+        color: #000;
+        font: 14px/22px ""; }
+    #main form span {
+      font-size: 12px;
+      color: #fd5421; }
+  #main .form {
+    width: 300px;
+    height: 270px;
+    margin: 20px auto; }
+    #main .form input {
+      width: 300px;
+      height: 42px;
+      border: none;
+      border: 1px solid #e1e1e1;
+      box-sizing: border-box;
+      margin-top: 35px; }
+    #main .form #btn {
+      background: #f63636;
+      color: #fff; }
+    #main .form #txt, #main .form #pass {
+      padding-left: 40px; }
+    #main .form #txt {
+      background: url(../images/user.png) no-repeat left #fff; }
+    #main .form #pass {
+      background: url(../images/pass.png) no-repeat left #fff; }
