@@ -8,7 +8,7 @@ if(window.localStorage.userArr){
 
 $("#btn").bind("click",function(){
     var username = $("#txt").val();        
-    var password = $("#pass").val();    
+    var password = $("#pass").val();
     var flag = false;
     var index = 0;
     //遍历数组进行匹配        

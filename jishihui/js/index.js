@@ -12,7 +12,8 @@ $(".banner").banner({
         right: $(".banner").children(".btns").children("#right"),
         list: $(".banner").children("ul").children("li"),
         moveTime: 300,
-        autoPlay: false
+        autoPlay: true,
+        delayTime:2000
 });
 //楼层的小轮播图部分
 $(".banner").banner({
@@ -137,6 +138,7 @@ $.ajax({
         success: function (res) {
                 json = eval(res)
                 let odiv = document.getElementById("l-json")
+                // console.log(odiv);
                 var str = "";
                 for (var i = 0; i < json.length; i++) {
                         str += `<img src ="${json[i].src}" index ="${json[i].goodsId}"/>`

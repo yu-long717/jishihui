@@ -2,15 +2,16 @@ export class Goods{
     constructor(options){
         this.cont = options.cont;
         this.url = options.url;
-        this.ajaxGet = options.method.ajaxGet;
-        this.getCookie = options.method.getCookie;
-        this.setCookie = options.method.setCookie;
+        // this.ajaxGet = options.method.ajaxGet;
+        // this.getCookie = options.method.getCookie;
+        // this.setCookie = options.method.setCookie;
         this.load()
         this.addEvent()
     }
     load(){
         var that = this;
-        this.ajaxGet(this.url).then(function(res){
+        ajaxGet(this.url,function(res){
+        // this.ajaxGet(this.url).then(function(res){
             that.res = JSON.parse(res);
             that.display()
         })

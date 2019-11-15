@@ -26,10 +26,10 @@ class Car{
                 if(this.goods[j].id === this.res[i].goodsId){
                     str +=`<dd data-id="${this.res[i].goodsId}">
 								<span>
-									<img src="${this.res[i].src}" />
+                                    <img src="${this.res[i].src}" />
 								</span>
 								<span>${this.res[i].price}</span>
-								<p><input type="button" value="-" id ="num1"/><input type="text" value="${this.goods[j].num}" min=1 id ="num2"/><input type="button" value="+" id ="num"/></p>
+                                <p><input type="button" value="-" id ="num1"/><input type="text" value="${this.goods[j].num}" min=1 id ="num2"/><input type="button" value="+" id ="num"/></p>
 								<span><em>删除</em></span>
 							</dd>`
                 }

@@ -5,7 +5,7 @@
 // },function(errCode){
 //     console.log(errCode)
 // })
-export function ajaxGet(url,data){
+function ajaxGet(url,data){
     var str = "";
     for(var i in data){
         str =  str + i + "=" + data[i] + "&";
