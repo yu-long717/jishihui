@@ -66,6 +66,7 @@ $(".xuan").children("li").mouseover(function () {
         $(".jie").children("ul").eq(index).css("display", "block").siblings().css("display", "none")
 })
 
+//手风琴
 $(".wrap").find("li").mouseover(function () {
         $(this).stop().animate({ width: 390 }, 200).siblings().stop().animate({ width: 183 }, 200)
 })
