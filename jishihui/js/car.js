@@ -32,8 +32,9 @@ class Car{
                                     <img src="${this.res[i].src}" />
                                     <i>${this.res[i].name}</i>
 								</span>
-								<span>${this.res[i].price}</span>
+								<span class="danjia">${this.res[i].price}</span>
                                 <p><input type="button" value="-" id ="num1"/><input type="text" value="${this.goods[j].num}" min=1 id ="num2"/><input type="button" value="+" id ="num"/></p>
+                                <span class="xiaoji">正在开发</span>
 								<span><em>删除</em></span>
 							</dd>`
                 }
