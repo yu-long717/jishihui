@@ -9,6 +9,7 @@ font:16px/50px "";}
 .Car dl dd span:nth-child(2){flex:5;}
 .Car dl dd span{flex:1;}
 .Car dl dd img{height: 50px;width:50px;}
+.Car dl dd i{font-style: normal;font-size: 20px;position: absolute;}
 .Car dl dd p{flex:1;display:flex;}
 .Car dl dd input{width:25px;height:25px;box-sizing:border-box;margin-top:12px;}
 .Car dl dd input:first-child{margin-left:30px;}

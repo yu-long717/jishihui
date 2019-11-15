@@ -30,6 +30,7 @@ class Car{
                                 </span>
 								<span>
                                     <img src="${this.res[i].src}" />
+                                    <i>${this.res[i].name}</i>
 								</span>
 								<span>${this.res[i].price}</span>
                                 <p><input type="button" value="-" id ="num1"/><input type="text" value="${this.goods[j].num}" min=1 id ="num2"/><input type="button" value="+" id ="num"/></p>
@@ -80,4 +81,4 @@ class Car{
     }
 }
 
-export default {Car};
+new Car();

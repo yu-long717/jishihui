@@ -84,7 +84,7 @@ $("#l-json").delegate("img", "click", function () {
         let ID = $(this).attr("index");
         switch ($(this).index()) {
                 case 0: window.location.href = "shop.html"; break;
-                case 1: window.location.href = "shop1.html"; break;
+                case 1: window.location.href = "shop.html"; break;
                 case 2: window.location.href = "shop.html"; break;
                 case 3: window.location.href = "shop.html"; break;
                 case 4: window.location.href = "shop.html"; break;
