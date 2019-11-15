@@ -25,6 +25,9 @@ class Car{
             for(var j=0;j<this.goods.length;j++){
                 if(this.goods[j].id === this.res[i].goodsId){
                     str +=`<dd data-id="${this.res[i].goodsId}">
+                                <span>
+                                    <input type="checkbox" style="width:13px;height:13px;">
+                                </span>
 								<span>
                                     <img src="${this.res[i].src}" />
 								</span>
